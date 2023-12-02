@@ -13,11 +13,12 @@
     width: 100%;
     height: 700px;
     padding: 10px 200px;
-    padding-top: 170px;
+    padding-top: 90px;
     @media (max-width: 767px) {
       background-image: url('../../../assets/image/imgMobile.png');
       padding: 5px;
-      padding-top: 150px;
+      padding-top: 90px;
+      height: 720px;
       text-align: center;
       align-items: center;
     }
@@ -49,15 +50,18 @@
     }
     }
     h2{
+      margin-top: 100px;
       font-size: 27px;
       color: #FFDF00;
       @media (max-width: 767px) {
+        margin-top: 250px;
         font-size: 35px;
       }
     }
 
   }
   .barraTitle{
+
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
@@ -66,6 +70,8 @@
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 1.9);
     @media (max-width: 767px) {
       margin: auto;
+      height:5px;
+      display: none !important;
       margin-top: 55px;
       margin-bottom: 20px;
     }
@@ -75,6 +81,7 @@
   font-size: 40px !important;
   margin-top: 30px;
   @media (max-width: 767px) {
+    margin-top: 10px;
     font-size: 35px !important;
   }
 }
