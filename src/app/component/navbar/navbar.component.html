@@ -1,0 +1,24 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <img src="../../../assets/image/lojoNav.png" alt="logo" style="width:200px;">
+      </div>
+      <div class="col-md-9 col-sm-9 col-9">
+        <div class="menu" [class.menu-open]="isMenuOpen">
+          <ul>
+            <li (click)="toggleMenu()">Home</li>
+            <li (click)="toggleMenu()">Serviços</li>
+            <li (click)="toggleMenu()">Contato</li>
+          </ul>
+          <div class="button-close" (click)="toggleMenu()">X</div>
+        </div>
+      </div>
+      <div class="hamburger" (click)="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </div>
+</header>
