@@ -2,7 +2,7 @@
   "name": "locomotiva",
   "short_name": "locomotiva",
   "theme_color": "#FFDF00",
-  "background_color": "#fafafa",
+  "background_color": "#FFDF00",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
